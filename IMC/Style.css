@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#caixa{
+  background-color: black;
+  
+  height: 25px;
+  padding: 5px;
+  
+}
+
+#caixa2{
+  
+  padding-top: 5px;
+  padding: 5px;
+}
+
+#linha{
+  border-top: 3px solid
+}
+
+hr{
+  margin: 5px;
+}
+
+#cliente{
+  position: relative;
+  margin: 5px;
+}
+
+
+h1{
+  margin-top: 5px;
+  margin-bottom: 2px;
+  margin-left: 5px;
+}
+
+h2{
+  color: aliceblue;
+}
+
+input{
+  width: 200px;
+  height: 25px;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 5px
+  
+}
+
+button{
+  width: 100px;
+  height: 25px;
+  background-color: crimson;
+  color: white;
+  margin: 5px;
+  padding: none;
+  border: none;
+  box-shadow: 1px 1px 1px black;
+
+}
+
+table{
+  
+  margin-left: 5px;
+  width: 99%;
+  border-spacing: none;
+  background-color: black;
+
+}
+
+th{
+  
+  background-color: whitesmoke;
+  text-align: left;
+  text-align: center;
+}
+
+th,td{
+  padding: 7px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td{
+  background-color:white;
+  text-align: center;
+  margin: auto;
+  
+}

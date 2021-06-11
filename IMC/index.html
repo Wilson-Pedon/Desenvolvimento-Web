@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  
+</head>
+<body>
+
+  <div id="caixa">
+
+    <h2>Calcule seu IMC</h2>
+
+  </div>
+
+  <div id="caixa2">
+    <h1>Meus Pacientes</h1>
+  </div>
+  
+  <hr id="linha">
+
+  <input type="text" id="cliente" placeholder="Digite o nome do cliente">
+
+
+<table id="elementos">
+  <tr>
+    <th>Nome</th>
+    <th>Peso</th>
+    <th>Altura</th>
+    <th>Gordura</th>
+    <th>IMC</th>
+  </tr>
+
+  <tr>
+    <td>Wilson</td>
+    <td>80</td>
+    <td>1,80</td>
+    <td>40</td>
+    <td>20,80</td>
+  </tr>
+
+  <tr>
+    <td>Luiz</td>
+    <td>80</td>
+    <td>1,80</td>
+    <td>40</td>
+    <td>20,80</td>
+  </tr>
+
+  <tr>
+    <td>Leonardo</td>
+    <td>80</td>
+    <td>1,80</td>
+    <td>40</td>
+    <td>20,80</td>
+  </tr>
+
+</table>
+
+<h1 id="paciente">Adicionar novo paciente</h1>
+
+<hr id="linha">
+
+ 
+  <input id ="nome" type="text" placeholder="Nome" class="Item">
+
+  <input id ="peso" type="number" placeholder="Peso" onKeyPress="if(this.value.length==5) 
+  return false;">
+  <input id ="altura" type="number" placeholder="Altura" onKeyPress="if(this.value.length==4) 
+  return false;">
+  <input id ="gordura" type="number" placeholder="Porcentagem de Gordura" onKeyPress="if(this.value.length==5) 
+  return false;">
+  
+  <button id="add"> Adicionar </button>
+
+
+
+  <link rel="stylesheet" type="text/css" href="Style.css"> 
+  <script src="script.js"></script>
+</body>
+</html>
